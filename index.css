@@ -1,0 +1,243 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.profile-photo {
+    max-width: 90px; 
+    border-radius: 50%; 
+    margin-top: 0px;
+    margin-right: 60px;
+}
+
+
+/* Navigation */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    align-items: center;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-links li a:hover {
+    color: #f466ed;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: transparent;
+   
+  }
+  .spline-embed {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    background: black;
+    margin-bottom: 100px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    color: rgb(188, 187, 187);
+}
+
+.highlight {
+    color:  #f466ed;
+}
+.code{
+    color: rgb(0, 0, 0) ;
+}
+.cta-button {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Sections */
+.section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #000000;
+}
+
+.bg-light {
+    background-color: #000000;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Grid for services and portfolio */
+.services-grid, .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.service, .portfolio-item {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus {
+    border-color: #f4a261;
+    box-shadow: 0 0 8px rgba(244, 162, 97, 0.5);
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #f4a261;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e76f51;
+}
+
+/* Footer */
+footer {
+    background-color: #1b1b1b;
+    padding: 20px;
+    color: #f466ed;
+    text-align: center;
+}
+
+/* Sticky Navigation */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Dashboard specific styling */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: #000000;
+}
+
+.dashboard-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-section h2 {
+    margin-top: 0;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.dashboard-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
